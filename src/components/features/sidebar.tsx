@@ -13,6 +13,7 @@ import {
   Menu,
   Zap,
   Rocket,
+  BookOpen,
 } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
@@ -27,6 +28,7 @@ const navItems = [
   { href: "/deployments", label: "Deployments", icon: Rocket },
   { href: "/deliverables", label: "Deliverables", icon: FileText },
   { href: "/roi", label: "ROI & Impact", icon: TrendingUp },
+  { href: "/how-it-works", label: "How It Works", icon: BookOpen },
   { href: "/settings", label: "Settings", icon: Settings },
 ];
 
