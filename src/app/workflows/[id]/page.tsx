@@ -182,7 +182,7 @@ export default async function WorkflowDetailPage({
             <Lightbulb className="mr-1 h-3 w-3" />
             Analyze Opportunities
           </LinkButton>
-          <LinkButton href={`/blueprints/${id}`} size="sm">
+          <LinkButton href="/blueprints" size="sm">
             <Zap className="mr-1 h-3 w-3" />
             Generate Blueprint
           </LinkButton>
