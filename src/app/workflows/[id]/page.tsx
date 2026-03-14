@@ -175,14 +175,14 @@ export default async function WorkflowDetailPage({
             Edit
           </LinkButton>
           <LinkButton
-            href={`/workflows/${id}/analyze`}
+            href="/opportunities"
             variant="outline"
             size="sm"
           >
             <Lightbulb className="mr-1 h-3 w-3" />
             Analyze Opportunities
           </LinkButton>
-          <LinkButton href={`/workflows/${id}/blueprint`} size="sm">
+          <LinkButton href={`/blueprints/${id}`} size="sm">
             <Zap className="mr-1 h-3 w-3" />
             Generate Blueprint
           </LinkButton>
